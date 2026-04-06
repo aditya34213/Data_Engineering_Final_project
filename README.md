@@ -42,6 +42,9 @@ This project implements a scalable data pipeline using the Medallion Architectur
 4. Run Silver notebook
 5. Run Gold notebook
 
+<img width="1727" height="864" alt="image" src="https://github.com/user-attachments/assets/02ed782e-e5fb-478f-9833-40cb91d1d935" />
+
+
 ##  Future Improvements
 
 * Add Airflow orchestration
