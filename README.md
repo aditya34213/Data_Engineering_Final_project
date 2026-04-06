@@ -43,6 +43,8 @@ This project implements a scalable data pipeline using the Medallion Architectur
 5. Run Gold notebook
 
 <img width="1727" height="864" alt="image" src="https://github.com/user-attachments/assets/02ed782e-e5fb-478f-9833-40cb91d1d935" />
+<img width="1919" height="1079" alt="Screenshot 2026-04-06 114933" src="https://github.com/user-attachments/assets/476f5516-4a06-47d5-81d7-d8a9cc98e54c" />
+
 
 
 ##  Future Improvements
