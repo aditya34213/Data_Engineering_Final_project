@@ -3,38 +3,38 @@
 
 Data Engineering Pipeline using Azure + Databricks
 
-## 📌 Overview
+##  Overview
 
 This project implements a scalable data pipeline using the Medallion Architecture (Bronze, Silver, Gold) to process and validate delivery/logistics data.
 
-## 🏗️ Architecture
+##  Architecture
 
 * Bronze Layer: Raw data ingestion from CSV
 * Silver Layer: Data cleaning, null handling, transformations
 * Gold Layer: Aggregated business insights
 * Validation Layer: Data quality checks (row count, nulls, statistics)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Azure Data Lake (ADLS Gen2)
 * Azure Databricks
 * PySpark
 * Delta Lake
 
-## 🔍 Key Features
+##  Key Features
 
 * Data validation framework (row count, distinct count, null checks)
 * Schema evolution handling
 * Incremental processing (Delta Lake)
 * Medallion architecture implementation
 
-## 📊 Sample Insights
+## Sample Insights
 
 * Average delivery time by city
 * Rating distribution analysis
 
 
-## ▶️ How to Run
+##  How to Run
 
 1. Upload data to ADLS
 2. Run Bronze notebook
@@ -42,11 +42,11 @@ This project implements a scalable data pipeline using the Medallion Architectur
 4. Run Silver notebook
 5. Run Gold notebook
 
-## 💡 Future Improvements
+##  Future Improvements
 
 * Add Airflow orchestration
 * Implement streaming pipeline
 * Add monitoring & alerts
 
-## 👤 Author
+##  Author
 Aditya Gadekar
