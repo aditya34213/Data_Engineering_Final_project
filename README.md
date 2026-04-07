@@ -10,13 +10,15 @@ This project implements a scalable data pipeline using the Medallion Architectur
 ##  Architecture
 
 * Bronze Layer: Raw data ingestion from CSV
+* Validation Layer: Data quality checks (row count, nulls, statistics)
 * Silver Layer: Data cleaning, null handling, transformations
 * Gold Layer: Aggregated business insights
-* Validation Layer: Data quality checks (row count, nulls, statistics)
+
 
 ##  Tech Stack
 
 * Azure Data Lake (ADLS Gen2)
+* Azure Data Factory
 * Azure Databricks
 * PySpark
 * Delta Lake
